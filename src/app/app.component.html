@@ -1,0 +1,21 @@
+<!-- <div class="container vh-100">
+  <div class="d-flex flex-column align-items-center">
+    <div class="p-1">
+      <video #video class="vid" autoplay></video>
+    </div>
+    <div class="pb-2">
+      <button class="btn btn-primary" [disabled]="errorHandle !== ''" (click)="capture()">Capture Image</button>
+      <button class="btn btn-primary" (click)="stopCamera()">Stop</button>
+    </div>
+    <div class="p-1">
+      <ul>
+        <li *ngFor="let c of captures">
+          <img src="{{ c }}" height="50" />
+        </li>
+      </ul>
+    </div>
+    {{errorHandle}}
+  </div>
+</div> -->
+
+<router-outlet></router-outlet>

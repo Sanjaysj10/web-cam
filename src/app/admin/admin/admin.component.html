@@ -1,0 +1,11 @@
+{{lang}} {{prod}}
+
+<button (click)="show = !show">Click show</button>
+
+<input (keyup)="otherTerm$.next($event.target.value)">
+
+<app-data-table *ngIf="show" (changeResult)="changeResult($event)" [data]="results"></app-data-table>
+
+<app-data-table *ngIf="!show" (changeResult)="changeResult($event)" [data]="results"></app-data-table>
+
+<!--  -->

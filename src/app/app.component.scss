@@ -1,0 +1,42 @@
+// .actionBtn {
+//   margin-top: 5px;
+//   margin-bottom: 2px;
+//   font-size: 1.2em;
+// }
+
+// .snapshot {
+//   text-align: center;
+//   img {
+//     max-width: 800px;
+//     max-height: 800px;
+//   }
+// }
+
+// ul.links {
+//   padding-bottom: 20px;
+// }
+
+
+
+body {
+  background-color: #F0F0F0;
+}
+
+#app {
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+#video {
+  background-color: #000000;
+}
+
+#canvas {
+  display: none;
+}
+
+li {
+  display: inline;
+  padding: 5px;
+}
